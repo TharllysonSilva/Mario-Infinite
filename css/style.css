@@ -20,6 +20,10 @@
     animation: pipe-animation 2s infinite linear;
 }
 
+.mario{
+    
+}
+
 @keyframes pipe-animation {
     from {
         right: -80px;
