@@ -33,5 +33,21 @@ const loop = setInterval(() => {
     }
 
 }, 10);
-
-document.addEventListener('keydown', jump);
+/*
+myAudio = new Audio('./audios/Super Mario Bros. medley.mp3'); 
+if (typeof myAudio.loop == 'boolean')
+{
+    myAudio.loop = true;
+}
+else
+{
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}
+myAudio.play();
+*/
+document.addEventListener('keydown', ()=>{
+    jump()
+}); 
